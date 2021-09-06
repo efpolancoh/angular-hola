@@ -1,0 +1,31 @@
+<div class="container mt-3">
+<h2> <b> Ejemplo: Hola mundo DataBinding </b></h2>
+<h3 [style.color]="color" [innerHTML]="mensaje"> </h3>
+    <br />
+<h2> <b> Ejemplo: Data Binding </b></h2>
+<h3> <i>  Mi nombre es {{persona.nombre}} , mi apellido {{persona.apellido}} y tengo {{persona.edad}} años de edad. </i></h3>
+<br />
+<h2> <b> Ejemplo: Interpolacion 1</b></h2>
+<h3> <i>  La suma de 1 + 1 es: {{1 + 1}}  </i></h3>
+<br />
+<h2> <b> Ejemplo: Interpolacion Con Método</b></h2>
+<h3> <i>  La suma de 10 + 25 es: {{getSuma()}}  </i></h3>
+<br />
+<h2> <b> Ejemplo: Interpolacion Con Método y Parametros</b></h2>
+<h3> <i>  El producto de 20 * 35 es: {{ getMulti(20, 35)}}  </i></h3>
+<br />
+<h2> <b> Ejemplo: Interpolacion Con Imagen</b></h2>
+<img src="{{urlIMG}}">
+<br />
+<br />
+<h2> <b> Ejemplo: Interpolacion Con Imagen-Ruta Absoluta</b></h2>
+<img src="{{urlAbsoluta}}">
+<br />
+<br />
+<h2> <b> Ejemplo: Interpolacion Con Imagen-Ruta Relativa</b></h2>
+<img src="{{urlRelativa}}">
+<br />
+<br />
+<h2> <b> Ejemplo: DataBinding</b></h2>
+<img [src]="urlDataB">
+</div>
